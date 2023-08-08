@@ -1,0 +1,57 @@
+﻿@model List<Booktopia.Domain.DomainModels.Book>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row m-3">
+        <a class="btn btn-light btn-outline-success  mr-5" asp-controller="Books" asp-action="Create">Add new Book</a>
+    </div>
+    <div class="row m-3 text-center">
+        <a class="btn btn-light btn-outline-dark" asp-controller="Books" asp-action="ListBooksByGenre">Search Books By Genre</a>
+    </div>
+
+
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        var item = Model[i];
+
+        if (i % 3 == 0)
+        {
+            @:<div class="row">
+            }
+
+                  <div class="col-md-3 m-4 mr-5">
+                      <div class="card" style="width: 18rem; height: 30rem;">
+                          <img class="card-img-top" src="@item.BookImage" alt="Book Image" style="height: 200px" />
+
+                          <div class="card-body" style="background-color: whitesmoke">
+                              <h5 class="card-title">@item.BookName</h5>
+                              <p class="card-text">Author: @item.Author</p>
+                              <p class="card-text">Genre: @item.Genre</p>
+                              <p>Price: <b>@item.BookPrice$</b></p>
+
+                          </div>
+
+                          <div class="card-footer text-center" style="background-color:snow">
+                              <a asp-controller="Books" asp-action="AddBookToCart" asp-route-id="@item.Id" class="btn btn-light btn-outline-primary">Add to Cart</a>
+                              <a asp-controller="Books" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-light btn-outline-warning">Edit</a>
+                              <a asp-controller="Books" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-light btn-outline-danger">Delete</a>
+                          </div>
+
+                      </div>
+                      <div class="text-left">
+                          <a asp-controller="Books" asp-action="Details" asp-route-id="@item.Id" class="btn btn-link">See Details</a>
+                      </div>
+                  </div>
+
+
+            if (i % 3 == 2)
+            {
+            @:</div>
+        }
+    }
+
+</div>

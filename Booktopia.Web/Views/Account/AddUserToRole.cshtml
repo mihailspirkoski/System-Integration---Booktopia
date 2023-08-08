@@ -1,0 +1,52 @@
+﻿@model Booktopia.Domain.Identity.AddToRoleModel
+@{
+    ViewBag.Title = "AddUserToRole";
+}
+
+
+    <h3 class="mt-5 mb-3 text-center">Add User To Role</h3>
+
+    @using (Html.BeginForm("AddUserToRole", "Account"))
+    {
+        <div class="form-group">
+            @Html.DropDownListFor(m => m.selectedUser, new SelectList(Model.users, "Email", "Email"), new { @class = "form-control" })
+
+        </div>
+        <div class="form-group">
+            @Html.DropDownListFor(m => m.selectedRole, new SelectList(Model.roles), new { @class = "form-control" })
+        </div>
+        <button type="submit" class="btn btn-light btn-outline-primary">Add Role</button>
+    }
+
+       <hr class="mt-4 mb-3"/>
+       <h3 class="mb-4 text-center">Import Users From Excel File</h3>
+
+
+    
+        <form asp-controller="User" asp-action="ImportUsers" method="post" enctype="multipart/form-data">
+
+            <div class="form-group w-25 mb-3">
+                <input type="file" name="file" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-light btn-outline-success">Import Users</button>
+
+        </form>
+
+<hr class="my-3"/>
+
+<h3 class="text-center">Export All Users To Excel File</h3>
+
+<div>
+    <a class="btn btn-light btn-outline-warning mt-5" asp-controller="User" asp-action="ExportAllUsers">Export Users</a>
+
+</div>
+
+
+
+
+
+
+
+
+

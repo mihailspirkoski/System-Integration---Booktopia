@@ -1,0 +1,23 @@
+﻿@model Booktopia.Domain.DTO.SearchBooksByGenreDto
+
+
+<div class="container mt-5" >
+    <form asp-action="ListBooksByGenre">
+        <h4 class="mb-4">Select Genre:</h4>
+        <select class="custom-select mb-5" id="Genre" name="Genre">
+            <option selected>Choose...</option>
+            @foreach (var opt in Model.Genres)
+            {
+                <option value="@opt">@opt</option>
+            }
+
+
+        </select>
+
+        <input class="btn btn-primary" type="submit" value="Search" asp-action="ListBooksByGenree" /> |
+        <a class="btn btn-link" asp-action="Index">Back to List</a>
+    </form>
+</div>
+
+
+

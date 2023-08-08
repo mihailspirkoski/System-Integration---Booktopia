@@ -1,0 +1,36 @@
+﻿@model Booktopia.Domain.DTO.AddToShoppingCartDto
+
+@{
+    ViewData["Title"] = "Add to Shopping Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h1>Add Selected Book to User's' Shopping Cart:</h1>
+
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4 m-auto">
+        <form asp-action="AddBookToCart" method="post">
+            <input type="hidden" asp-for="BookId" />
+            <div class="form-group">
+                <label asp-for="SelectedBook.BookName"></label>
+                <input disabled asp-for="SelectedBook.BookName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Quantity"></label>
+                <input asp-for="Quantity" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-primary" />   |
+                <a class="btn btn-link" asp-action="Index">Back to List</a>
+            </div>
+
+        </form>
+    </div>
+</div> 

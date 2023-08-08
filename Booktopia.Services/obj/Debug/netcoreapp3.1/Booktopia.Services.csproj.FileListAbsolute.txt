@@ -1,0 +1,14 @@
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\obj\Debug\netcoreapp3.1\Booktopia.Services.csproj.AssemblyReference.cache
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\obj\Debug\netcoreapp3.1\Booktopia.Services.AssemblyInfoInputs.cache
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\obj\Debug\netcoreapp3.1\Booktopia.Services.AssemblyInfo.cs
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\obj\Debug\netcoreapp3.1\Booktopia.Services.csproj.CoreCompileInputs.cache
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\bin\Debug\netcoreapp3.1\Booktopia.Services.deps.json
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\bin\Debug\netcoreapp3.1\Booktopia.Services.dll
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\bin\Debug\netcoreapp3.1\Booktopia.Services.pdb
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\bin\Debug\netcoreapp3.1\Booktopia.Domain.dll
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\bin\Debug\netcoreapp3.1\Booktopia.Repository.dll
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\bin\Debug\netcoreapp3.1\Booktopia.Domain.pdb
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\bin\Debug\netcoreapp3.1\Booktopia.Repository.pdb
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\obj\Debug\netcoreapp3.1\Booktopia.Services.csproj.CopyComplete
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\obj\Debug\netcoreapp3.1\Booktopia.Services.dll
+D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Services\obj\Debug\netcoreapp3.1\Booktopia.Services.pdb

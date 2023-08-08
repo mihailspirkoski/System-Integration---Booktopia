@@ -1,0 +1,6 @@
+2021-07-22 20:17:38.6113|0|DEBUG|Booktopia.Web.Program|init main 
+2021-07-22 20:17:48.3714|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2021-07-22 20:17:48.3919|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2021-07-22 20:17:48.3919|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Fakultet\Proekti Programiranje\IT, IS\IS\Booktopia\Booktopia.Web 
+2021-07-22 20:19:56.1709|0|INFO|Booktopia.Services.Implementation.BookService|Well done. Book successfully added into ShoppingCart 
+2021-07-22 20:20:08.4064|0|INFO|Booktopia.Services.Implementation.BookService|Well done. Book successfully added into ShoppingCart 
