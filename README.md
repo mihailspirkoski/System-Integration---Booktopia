@@ -22,3 +22,5 @@ Export users and orders into an Excel file via WebApi Controller using ClosedXML
 
 NLog logger with a unique message while adding a book to a shopping cart;
 
+
+Admin credentials - User: dotnetapp111@gmail.com; Password: Test123@
