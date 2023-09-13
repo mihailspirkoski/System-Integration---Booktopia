@@ -18,6 +18,10 @@ ASP.NET Core MVC Application using MySQL - Online Book Store
 **Booktopia Home Page**
 ![image](https://github.com/mihailspirkoski/System-Integration---Booktopia/assets/74495955/c14cbffe-2aed-45d1-8799-4d86afe2c80d)
 
+**Booktopia Store View**
+![image](https://github.com/mihailspirkoski/System-Integration---Booktopia/assets/74495955/f6f8f507-c19b-4580-a366-2092e218e5d7)
+
+
 **Booktopia Orders View**
 ![image](https://github.com/mihailspirkoski/System-Integration---Booktopia/assets/74495955/c81c788a-5141-497b-9ead-3e7f461c4ada)
 
@@ -34,7 +38,7 @@ ASP.NET Core MVC Application using MySQL - Online Book Store
 
 **__Instructions__**
 
-1. Download or clone the repository (Download ZIP or `git clone` )
+1. Download or clone the repository (Download ZIP or `git clone`)
 2. Open the project solution
 3. Admin credentials - User: testadmin@test.com; Password: Test123@
 
