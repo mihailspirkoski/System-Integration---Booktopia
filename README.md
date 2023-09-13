@@ -15,8 +15,19 @@ ASP.NET Core MVC Application using MySQL - Online Book Store
 8. Export users and orders into an Excel file via WebApi Controller using ClosedXML
 9. NLog logger with a unique message while adding a book to a shopping cart
 
-**Booktopia**
-![image](https://github.com/mihailspirkoski/System-Integration---Booktopia/assets/74495955/a9656789-f772-47f7-9166-5fa963cec322)
+**Booktopia Home Page**
+![image](https://github.com/mihailspirkoski/System-Integration---Booktopia/assets/74495955/c14cbffe-2aed-45d1-8799-4d86afe2c80d)
+
+**Booktopia Orders View**
+![image](https://github.com/mihailspirkoski/System-Integration---Booktopia/assets/74495955/c81c788a-5141-497b-9ead-3e7f461c4ada)
+
+**Booktopia User Management View**
+![image](https://github.com/mihailspirkoski/System-Integration---Booktopia/assets/74495955/b66e769c-cbbd-4ab2-a53e-16547a7f432a)
+
+**Booktopia Stripe Payment**
+![image](https://github.com/mihailspirkoski/System-Integration---Booktopia/assets/74495955/fc869504-4a9a-4f78-b06f-ded91ec0be62)
+
+
 
 
 
@@ -25,7 +36,7 @@ ASP.NET Core MVC Application using MySQL - Online Book Store
 
 1. Download or clone the repository (Download ZIP or `git clone` )
 2. Open the project solution
-3. Admin credentials - User: dotnetapp111@gmail.com; Password: Test123@
+3. Admin credentials - User: testadmin@test.com; Password: Test123@
 
 
 
