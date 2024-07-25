@@ -1,5 +1,5 @@
 # System-Integration---Booktopia
-ASP .NET Core MVC Application using MySQL - Online Book Store 
+ASP .NET Core MVC Application using MySQL database and Bootstrap - Online Book Store 
 
 
 
